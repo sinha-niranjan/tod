@@ -15,10 +15,10 @@ function App() {
    {/* <Carousel/>
    <Cards/> */}
    {/* <Login /> */}
-   {/* <Signup /> */}
+   <Signup />
    {/* <Contact /> */}
    {/* <About/> */}
-   <TaskManager />
+   {/* <TaskManager /> */}
    <Footer/>
    </>
   );

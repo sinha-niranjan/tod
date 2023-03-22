@@ -1,4 +1,4 @@
-import React from 'react'
+import React from "react";
 
 function Signup() {
   return (
@@ -11,11 +11,31 @@ function Signup() {
                 <h1 class="mb-3 text-center">Todo Signup </h1>
                 <form class="mb-3">
                   <div class="form-group">
+                    <label for="UserName">Name:</label>
+                    <input
+                      type="text"
+                      class="form-control"
+                      placeholder="Enter your user name"
+                      id="Name"
+                      required
+                    />
+                  </div>
+                  <div class="form-group">
+                    <label for="PhoneNumber">Phone number :</label>
+                    <input
+                      type="PhoneNumber tel"
+                      class="form-control"
+                      placeholder="+91"
+                      id="phoneNumber"
+                      required
+                    />
+                  </div>
+                  <div class="form-group">
                     <label for="email">Email:</label>
                     <input
                       type="email"
                       class="form-control"
-                      placeholder="example@email.com"
+                      placeholder="example@gmail.com"
                       id="email"
                       required
                     />
@@ -38,13 +58,13 @@ function Signup() {
                       required
                     />
                   </div>
-                  <button type="submit" class="btn btn-primary btn-block">
+                  <button type="submit" class="btn btn-primary btn-block my-2">
                     Signup
                   </button>
                 </form>
                 <div class="text-center">
                   <p>or..</p>
-                  <a href="create.html" class="btn btn-success">
+                  <a href="/Login" class="btn btn-success">
                     Login
                   </a>
                   <p class="small">
@@ -57,10 +77,9 @@ function Signup() {
             </div>
           </div>
         </div>
-        <div class="form"></div>
       </main>
     </div>
   );
 }
 
-export default Signup
+export default Signup;
