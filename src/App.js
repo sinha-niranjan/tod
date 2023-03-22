@@ -12,10 +12,10 @@ function App() {
   return (
    <>
    <Navbar mode = "dark"/>
-   {/* <Carousel/>
-   <Cards/> */}
+   <Carousel/>
+   <Cards/>
    {/* <Login /> */}
-   <Signup />
+   {/* <Signup /> */}
    {/* <Contact /> */}
    {/* <About/> */}
    {/* <TaskManager /> */}
