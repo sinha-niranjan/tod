@@ -5,7 +5,11 @@ function footer() {
     <div>
       <footer
         class="py-5 px-5 text-light"
-        style={{ backgroundColor: "#171736", color: "white", marginTop: "10vh" }}
+        style={{
+          backgroundImage: "linear-gradient(#22e3e7, #08042e)",
+          color: "white",
+          marginTop: "10vh",
+        }}
       >
         <div class="container text-center">
           <div class="row ">
