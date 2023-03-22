@@ -55,8 +55,8 @@ function footer() {
                     className="form-control"
                     placeholder="Email address"
                   />
-                  <a href="index.html">
-                    <button className="btn btn-outline-primary" type="button">
+                  <a href="/">
+                    <button className="btn btn-outline-dark" type="button">
                       Subscribe
                     </button>
                   </a>
