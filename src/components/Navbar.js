@@ -3,7 +3,7 @@ import {BrowserRouter as Router, Link } from "react-router-dom";
 
 function navbar(props) {
   return (
-    <Router>
+    
       <div>
         <nav
           className={`navbar navbar-expand-lg bg-${props.mode} navbar-${props.mode} `}
@@ -50,12 +50,12 @@ function navbar(props) {
                 </li>
               </ul>
               <Link to={props.login} className="nav-link">
-                <button type="button " className="btn btn-danger nav-item mx-2">
+                <button type="button " className="btn btn-danger nav-item m-2">
                   Login
                 </button>
               </Link>
               <Link to="/signup" className="nav-link">
-                <button type="button " className="btn btn-danger nav-item mx-2">
+                <button type="button " className="btn btn-danger nav-item m-2">
                   Signup
                 </button>
               </Link>
@@ -63,7 +63,7 @@ function navbar(props) {
           </div>
         </nav>
       </div>
-    </Router>
+    
   );
 }
 
