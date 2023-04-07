@@ -1,13 +1,32 @@
 import React from "react";
+import BackgroundImage from "../img/background.jpg";
+
 
 function Signup() {
   return (
     <div>
       <main>
-        <div class="jumbotron jumbotron-fluid">
+        <div class="jumbotron jumbotron-fluid"
+        style={{
+            backgroundImage: `url(${BackgroundImage})`,
+            margin: "-10vh",
+          }}>
           <div class="container">
-            <div class="row">
-              <div class="col-12 col-sm-8 col-md-6 col-lg-4 offset-sm-4 offset-sd-3 offset-lg-4">
+            <div class="row" style={{
+                display: "flex",
+                justifyContent: "center",
+                flexWrap: "wrap",
+              }}>
+              <div class="col-12 col-sm-8 col-md-6 col-lg-4 offset-sm-4 offset-sd-3 offset-lg-4" style={{
+                  margin: "13%",
+                  borderRadius: "25px",
+
+                  padding: "3%",
+
+                  background: "transparent",
+                  border: "2px solid rgba(255,255,255,0.5)",
+                  backdropFilter: "blur(5px)",
+                }}>
                 <h1 class="mb-3 text-center">Todo Signup </h1>
                 <form class="mb-3">
                   <div class="form-group">

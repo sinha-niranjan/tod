@@ -8,7 +8,7 @@ function footer() {
         style={{
           backgroundImage: "linear-gradient(#22e3e7, #08042e)",
           color: "white",
-          marginTop: "10vh",
+          
         }}
       >
         <div className="container text-center">

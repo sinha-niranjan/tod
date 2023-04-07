@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import BackgroundImage from "../img/background.jpg";
 let UseState = useState;
 function login() {
   const [email, setEmail] = UseState("");
@@ -12,18 +13,42 @@ function login() {
       setEmail("");
       setPass("");
       setConPass("");
-    }
-    else{
-      alert("Please renter correct password !")
+    } else {
+      alert("Please renter correct password !");
     }
   }
   return (
     <div>
       <main>
-        <div className="jumbotron jumbotron-fluid">
+        <div
+          className="jumbotron jumbotron-fluid"
+          style={{
+            backgroundImage: `url(${BackgroundImage})`,
+            margin: "-10vh",
+          }}
+        >
           <div className="container">
-            <div className="row">
-              <div className="col-12 col-sm-8 col-md-6 col-lg-4 offset-sm-4 offset-sd-3 offset-lg-4">
+            <div
+              className="row"
+              style={{
+                display: "flex",
+                justifyContent: "center",
+                flexWrap: "wrap",
+              }}
+            >
+              <div
+                className="col-12 col-sm-8 col-md-6 col-lg-4 offset-sm-4 offset-sd-3 offset-lg-4"
+                style={{
+                  margin: "13%",
+                  borderRadius: "25px",
+
+                  padding: "3%",
+
+                  background: "transparent",
+                  border: "2px solid rgba(255,255,255,0.5)",
+                  backdropFilter: "blur(5px)",
+                }}
+              >
                 <h1 className="mb-3 text-center">Todo log in</h1>
                 <form className="mb-3" onSubmit={getFormData}>
                   <div className="form-group">
