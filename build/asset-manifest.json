@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/static/css/main.073c9b0a.css",
+    "main.js": "/static/js/main.e6c0be34.js",
+    "static/js/787.108b84ac.chunk.js": "/static/js/787.108b84ac.chunk.js",
+    "static/media/background.jpg": "/static/media/background.6d6cec5eb36db57b8f08.jpg",
+    "static/media/vacation.jpg": "/static/media/vacation.79f16a35acabb4b63cfe.jpg",
+    "static/media/background1.jpg": "/static/media/background1.ef18c19e42021912ce2a.jpg",
+    "static/media/personal.jpg": "/static/media/personal.0b7973ae44dc194f47c1.jpg",
+    "static/media/professional.jpg": "/static/media/professional.388cca8da50fc4d0c1f3.jpg",
+    "static/media/shoppingCard.jpg": "/static/media/shoppingCard.623043891e24b589c60a.jpg",
+    "static/media/vacationCard.jpg": "/static/media/vacationCard.a99318456acf93106a65.jpg",
+    "static/media/personalCard.jpg": "/static/media/personalCard.3595c713c4e4929e8053.jpg",
+    "static/media/professionalCard.jpg": "/static/media/professionalCard.470f065e24d77f85ccf8.jpg",
+    "index.html": "/index.html",
+    "main.073c9b0a.css.map": "/static/css/main.073c9b0a.css.map",
+    "main.e6c0be34.js.map": "/static/js/main.e6c0be34.js.map",
+    "787.108b84ac.chunk.js.map": "/static/js/787.108b84ac.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.073c9b0a.css",
+    "static/js/main.e6c0be34.js"
+  ]
+}
